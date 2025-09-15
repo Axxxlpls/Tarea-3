@@ -23,7 +23,7 @@ Incluye campos de texto, menús desplegables, un área de mensaje y un botón de
 
 ## 🔗 Enlace al proyecto
 Repositorio en GitHub: https://github.com/Axxxlpls/Tarea-3
-Deploy: [LINK](http://yomidev.github.io/newsletter/)
+Deploy: https://axxxlpls.github.io/Tarea-3/
 ---
 
 ## 📝 Reflexión
