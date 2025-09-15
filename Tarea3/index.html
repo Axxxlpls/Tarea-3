@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto - Planes para empresas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Styles/style.css" />
+</head>
+<body>
+
+ 
+  <nav class="barra">
+    <img class="icono-marca" src="Images/coding.png" alt="Ícono de contacto">
+    <span class="nombre-marca">Codes</span>
+  </nav>
+
+  
+  <header class="cabecera">
+    <h1>Interested in our<br>business pricing?</h1>
+    <p>Fill out the form to view details and we’ll contact you as soon as possible.</p>
+  </header>
+
+  
+  <main class="contenedor">
+    <section class="tarjeta">
+      <form class="formulario" action="#" method="post">
+        
+        <div class="campo">
+          <label for="nombre">Name</label>
+          <input id="nombre" type="text" placeholder="Ethan Johnson">
+        </div>
+
+        <div class="campo">
+          <label for="correo">Company Email</label>
+          <input id="correo" type="email" placeholder="ethan@johnson.com" autocomplete="email">
+        </div>
+
+        <div class="campo">
+          <label for="tamano">Company Size</label>
+          <select id="tamano">
+            <option selected>50–100 employees</option>
+            <option>1–10 employees</option>
+            <option>11–50 employees</option>
+            <option>100+ employees</option>
+          </select>
+        </div>
+
+        <div class="campo">
+          <label for="asunto">Subject</label>
+          <select id="asunto">
+            <option selected>Building Landing pages</option>
+            <option>Custom Web App</option>
+            <option>Consulting</option>
+          </select>
+        </div>
+
+        <div class="campo campo-completo">
+          <label for="mensaje">Message</label>
+          <textarea id="mensaje" placeholder="Write your message here..."></textarea>
+        </div>
+
+        <div class="acciones">
+          <button type="submit" class="boton">Contact Sales</button>
+        </div>
+
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
